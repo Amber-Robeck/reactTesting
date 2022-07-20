@@ -2,7 +2,7 @@ import React from 'react';
 //https://mswjs.io/docs/getting-started/install
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
-import { render, screen, waitFor, renderHook, act } from '@testing-library/react';
+import { waitFor, renderHook, act } from '@testing-library/react';
 import { useApi } from './useApi';
 
 const server = setupServer(
