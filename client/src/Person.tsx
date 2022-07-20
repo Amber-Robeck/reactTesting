@@ -1,5 +1,5 @@
 import React from 'react';
 
 export const Person = ({ name }: { name: string }) => (
-    <div>Hi there {name}</div>
+    <div role="nameinfo">Hi there {name}</div>
 )
