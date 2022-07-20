@@ -1,6 +1,6 @@
 import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
-import { Counter } from './Counter';
+import { Counter } from '../components/Counter';
 
 test('Handles count onClick', () => {
     render(<Counter />);

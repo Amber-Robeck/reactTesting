@@ -3,7 +3,7 @@ import React from 'react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import { render, screen, waitFor } from '@testing-library/react';
-import { ApiCall } from './ApiCall';
+import { ApiCall } from '../components/ApiCall';
 
 test('Shows loading if !isMounted', () => {
     render(<ApiCall />);

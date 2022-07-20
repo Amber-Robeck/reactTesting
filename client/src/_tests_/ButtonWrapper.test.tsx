@@ -1,6 +1,6 @@
 import React from 'react';
 import { fireEvent, render, screen } from '@testing-library/react';
-import { ButtonWrapper } from './ButtonWrapper';
+import { ButtonWrapper } from '../components/ButtonWrapper';
 
 test('Handles onClick', () => {
     const handleClick = jest.fn();

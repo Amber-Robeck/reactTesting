@@ -3,7 +3,7 @@ import React from 'react';
 import { rest } from 'msw';
 import { setupServer } from 'msw/node';
 import { waitFor, renderHook, act } from '@testing-library/react';
-import { useApi } from './useApi';
+import { useApi } from '../components/useApi';
 
 const server = setupServer(
     rest.get('/api', (req, res, ctx) => {

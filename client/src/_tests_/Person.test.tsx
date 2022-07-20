@@ -1,6 +1,6 @@
 import React from 'react';
 import { render, screen } from '@testing-library/react';
-import { Person } from './Person';
+import { Person } from '../components/Person';
 
 //Test 1: renders the component with name
 test('renders a greeting with name', () => {
