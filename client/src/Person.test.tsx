@@ -14,4 +14,5 @@ test('renders a greeting with name take two', () => {
     render(<Person name="Amber" />);
     const divElement = screen.getByRole("nameinfo");
     expect(divElement).toHaveTextContent("Hi there Amber");
+    expect(divElement).toHaveAttribute("role", "nameinfo");
 });
